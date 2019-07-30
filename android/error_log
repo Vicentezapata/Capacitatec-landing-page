@@ -1,0 +1,60 @@
+[10-Dec-2018 18:57:16 America/Santiago] PHP Notice:  Undefined index: rut in /home/cduque/public_html/android/insertar.php on line 4
+[10-Dec-2018 18:57:16 America/Santiago] PHP Notice:  Undefined index: nombre in /home/cduque/public_html/android/insertar.php on line 5
+[10-Dec-2018 18:57:16 America/Santiago] PHP Notice:  Undefined index: apellido in /home/cduque/public_html/android/insertar.php on line 6
+[10-Dec-2018 18:57:16 America/Santiago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/cduque/public_html/android/insertar.php on line 8
+[10-Dec-2018 18:57:16 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 12
+[10-Dec-2018 18:57:16 America/Santiago] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 14
+[10-Dec-2018 18:57:36 America/Santiago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/cduque/public_html/android/insertar.php on line 8
+[10-Dec-2018 18:57:36 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 12
+[10-Dec-2018 18:57:36 America/Santiago] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 14
+[10-Dec-2018 18:57:53 America/Santiago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/cduque/public_html/android/insertar.php on line 8
+[10-Dec-2018 18:57:53 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 12
+[10-Dec-2018 18:57:53 America/Santiago] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 14
+[10-Dec-2018 18:58:59 America/Santiago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/cduque/public_html/android/insertar.php on line 8
+[10-Dec-2018 18:58:59 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 12
+[10-Dec-2018 18:58:59 America/Santiago] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 14
+[10-Dec-2018 18:59:19 America/Santiago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/cduque/public_html/android/insertar.php on line 8
+[10-Dec-2018 18:59:19 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 12
+[10-Dec-2018 18:59:19 America/Santiago] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 14
+[10-Dec-2018 19:00:51 America/Santiago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/cduque/public_html/android/insertar.php on line 8
+[10-Dec-2018 19:00:51 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 12
+[10-Dec-2018 19:00:51 America/Santiago] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 14
+[10-Dec-2018 19:01:17 America/Santiago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/cduque/public_html/android/insertar.php on line 8
+[10-Dec-2018 19:01:17 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 12
+[10-Dec-2018 19:01:17 America/Santiago] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 14
+[10-Dec-2018 19:01:36 America/Santiago] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'www.capacitatec.cl/cpanel' (0) in /home/cduque/public_html/android/insertar.php on line 8
+[10-Dec-2018 19:01:36 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 12
+[10-Dec-2018 19:01:36 America/Santiago] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 14
+[10-Dec-2018 19:03:16 America/Santiago] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on '11.74.0.12' (110) in /home/cduque/public_html/android/insertar.php on line 8
+[10-Dec-2018 19:03:16 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 12
+[10-Dec-2018 19:03:16 America/Santiago] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 14
+[10-Dec-2018 19:03:19 America/Santiago] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on '11.74.0.12' (110) in /home/cduque/public_html/android/insertar.php on line 8
+[10-Dec-2018 19:03:19 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 12
+[10-Dec-2018 19:03:19 America/Santiago] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 14
+[10-Dec-2018 19:04:51 America/Santiago] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'cduque'@'200.63.97.56' to database 'android' in /home/cduque/public_html/android/insertar.php on line 8
+[10-Dec-2018 19:04:51 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 12
+[10-Dec-2018 19:04:51 America/Santiago] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 14
+[10-Dec-2018 19:04:54 America/Santiago] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'cduque'@'200.63.97.56' to database 'android' in /home/cduque/public_html/android/insertar.php on line 8
+[10-Dec-2018 19:04:54 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 12
+[10-Dec-2018 19:04:54 America/Santiago] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 14
+[10-Dec-2018 19:09:04 America/Santiago] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'https://www.mundohosting.cl' (0) in /home/cduque/public_html/android/insertar.php on line 8
+[10-Dec-2018 19:09:04 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 12
+[10-Dec-2018 19:09:04 America/Santiago] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 14
+[10-Dec-2018 19:09:57 America/Santiago] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'mysql.mundohosting.cl' (0) in /home/cduque/public_html/android/insertar.php on line 8
+[10-Dec-2018 19:09:57 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 12
+[10-Dec-2018 19:09:57 America/Santiago] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 14
+[10-Dec-2018 19:09:59 America/Santiago] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'mysql.mundohosting.cl' (0) in /home/cduque/public_html/android/insertar.php on line 8
+[10-Dec-2018 19:09:59 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 12
+[10-Dec-2018 19:09:59 America/Santiago] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 14
+[10-Dec-2018 19:10:33 America/Santiago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'cduque_cduque'@'localhost' (using password: YES) in /home/cduque/public_html/android/insertar.php on line 8
+[10-Dec-2018 19:10:33 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 12
+[10-Dec-2018 19:10:33 America/Santiago] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 14
+[10-Dec-2018 19:10:35 America/Santiago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'cduque_cduque'@'localhost' (using password: YES) in /home/cduque/public_html/android/insertar.php on line 8
+[10-Dec-2018 19:10:35 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 12
+[10-Dec-2018 19:10:35 America/Santiago] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 14
+[10-Dec-2018 19:14:07 America/Santiago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'cduque_cduque'@'servidor56.mundohosting.cl' (using password: YES) in /home/cduque/public_html/android/insertar.php on line 8
+[10-Dec-2018 19:14:07 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 12
+[10-Dec-2018 19:14:07 America/Santiago] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 14
+[10-Dec-2018 19:14:10 America/Santiago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'cduque_cduque'@'servidor56.mundohosting.cl' (using password: YES) in /home/cduque/public_html/android/insertar.php on line 8
+[10-Dec-2018 19:14:10 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 12
+[10-Dec-2018 19:14:10 America/Santiago] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/cduque/public_html/android/insertar.php on line 14
