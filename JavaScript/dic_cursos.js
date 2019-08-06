@@ -56,14 +56,14 @@ $(document).ready(function() {
             },
             {
                 'id':5,
-                'color': yellow,
+                'color': green,
                 'curso':'Alfabetización en uso de Celulares',
                 'logo':'imagenes/cursos/flyer_celular.png',
                 'fecha':'Sábado 27 de Octubre.',
                 'dia':'27',
                 'mes':'OCT',
                 'modalidad':'Taller intensivo.',
-                'valor':'222.222',
+                'valor':'333.333',
                 'programa':{
                     'precio': 'Precio $15.000, incluye material de apoyo, Coffe break y diploma de participación.',
                     'horario': '10.00 hrs. a 14.00 hrs.',
@@ -94,7 +94,7 @@ $(document).ready(function() {
     }
 
     out='';
-    for(var i=0; i<jsonObject.cursos.length; i++){
+    for(i in jsonObject.cursos){
         // -> Estructura CURSOS <- //
         out+='<div class="container">';
         out+='<div class="row">';
@@ -111,11 +111,11 @@ $(document).ready(function() {
         out+='  <div class="col-sm pt-2">';
         out+='    ✓ '+jsonObject.cursos[i].modalidad+'';
         out+='  </div>';
-        out+='  <div class="col-sm pt-2">';
-        out+='   <h5><b>$'+jsonObject.cursos[i].valor+' CLP</b></h5>';
+        out+='  <div class="col-sm pt-1">';
+        out+='   <p style="font-size:20px;">$'+jsonObject.cursos[i].valor+' CLP</p>';
         out+='  </div>';
-        out+=' <div class="col-sm pb-2"><button class="btn btn-info" onclick="cargarPrograma('+jsonObject.cursos[i].id+');">Ver Programa</button></div>';
-        out+='  <div class="col-sm pb-2"><a class="btn btn-primary" onclick="cargarFormulario('+jsonObject.cursos[i].id+')">Reservar cupo</a></div>';
+        out+=' <div class="col-sm pb-2"><button class="btn btn-info shadow-sm" onclick="cargarPrograma('+jsonObject.cursos[i].id+');">Ver Programa</button></div>';
+        out+='  <div class="col-sm pb-2 text-white"><button class="btn btn-primary shadow-sm" onclick="cargarFormulario('+jsonObject.cursos[i].id+')">Reservar cupo</button></div>';
         out+='</div>';
         out+=' <hr class="pd-2 bg-light">';
         out+='</div>';
