@@ -147,7 +147,7 @@ hr.card-dark:after,hr.card-light:after{
 	.btn-xl{padding:1rem 1.75rem;font-size:1.25rem}
 	.btn-social{width:3.25rem;height:3.25rem;font-size:1.25rem;line-height:2rem}
 	.btn-social-up{width:3.25rem;height:3.25rem;font-size:1.25rem;line-height:2rem}
-	.scroll-to-top{z-index:1042;right:1rem;bottom:1rem;display:none}
+	.scroll-to-top{z-index:1042;right:1.5rem;bottom:100px;display:none}
 	.scroll-to-top a{width:3.5rem;height:3.5rem;background-color:rgba(33,37,41,.5);line-height:3.1rem}
 	#mainNav{padding-top:1rem;padding-bottom:1rem;font-weight:700;font-family:Montserrat;font-size: 14px;}
 	#mainNav .navbar-brand{color:#fff}#mainNav .navbar-nav{margin-top:1rem;letter-spacing:.0625rem}

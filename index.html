@@ -31,14 +31,29 @@
   </head>
 
   <body id="page-top">
-
+    <!-- Load Facebook SDK for JavaScript -->
+   <script>
+    window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v4.0'
+    });
+    };
+    
+    (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
     <!-- Your customer chat code -->
     <div class="fb-customerchat"
-    attribution=setup_tool
-    page_id="1828852623808977"
-    theme_color="#0084ff"
-    logged_in_greeting="Hola!, Cómo podemos ayudarte?"
-    logged_out_greeting="Hola!, Cómo podemos ayudarte?">
+      attribution=setup_tool
+      page_id="1828852623808977"
+      logged_in_greeting="Hola!, Cómo podemos ayudarte?"
+      logged_out_greeting="Hola!, Cómo podemos ayudarte?">
     </div>
 
     <!-- Navigation -->
@@ -70,7 +85,7 @@
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contactanos</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" target="_blank" href="moodle30/index.php">Aula virtual</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" target="_blank" href="moodle30">Aula virtual</a>
             </li>
             <li class="nav-item mx-0 mx-lg-5"> 
               <ul class="list-inline pr-5">
@@ -351,7 +366,6 @@
                   <div class="back">
 
                   <div class="facebook-header"><i class="fa fa-facebook-square float-left"></i></div>
-                  <div id="fb-root"></div>
                   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v4.0&appId=702053583494932&autoLogAppEvents=1"></script>
                   <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="" data-height="522" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div> 
                   </div>
@@ -368,9 +382,7 @@
                 <div class="fb-comment-embed pb-2 shadow-sm" data-href="https://www.facebook.com/zuck/posts/10102577175875681?comment_id=1193531464007751&amp;reply_comment_id=654912701278942" data-width="340" data-include-parent="false"></div>
                 <div class="fb-comment-embed pb-2 shadow-sm" data-href="https://www.facebook.com/zuck/posts/10102577175875681?comment_id=1193531464007751&amp;reply_comment_id=654912701278942" data-width="340" data-include-parent="false"></div>
                 <div class="fb-comment-embed pb-2 shadow-sm" data-href="https://www.facebook.com/zuck/posts/10102577175875681?comment_id=1193531464007751&amp;reply_comment_id=654912701278942" data-width="340" data-include-parent="false"></div>
-                
-
-              
+            
             </div>
           </div>
         </div>
@@ -749,24 +761,6 @@
       </div>
 
     </div>
-    
-
-    <!-- Load Facebook SDK for JavaScript -->
-    <script>
-        window.fbAsyncInit = function() {
-          FB.init({
-            xfbml            : true,
-            version          : 'v4.0'
-          });
-        };
-
-        (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
