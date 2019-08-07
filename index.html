@@ -32,7 +32,7 @@
 
   <body id="page-top">
     <!-- Load Facebook SDK for JavaScript -->
-   <script>
+    <script>
     window.fbAsyncInit = function() {
     FB.init({
       xfbml            : true,
@@ -44,7 +44,7 @@
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
     js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+    js.src = 'JavaScript/xfbml.customerchat.js';
     fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
     </script>
@@ -355,9 +355,7 @@
     <section id="noticias" class="bg-azul text-white">
       <div class="container">
           <img class="img-fluid d-block mx-auto" src="imagenes/logo2.png" style="width: 400px;" alt="LOGO">
-        <h2 id="noticias_tittle" class="text-center">Noticias<i class="fa fa-fw fa-rss"></i><p style="font-size: 10px;">Síguenos en nuestras redes ✓<br>Entérate de nuestras ultimas noticias ✓</p></h2>
-        
-    
+        <h2 id="noticias_tittle" class="text-center">Noticias<i class="fa fa-fw fa-rss"></i><p style="font-size: 10px;">Síguenos en nuestras redes ✓<br>Entérate de nuestras ultimas noticias ✓</p></h2>  
         <div class="row">
         <div class="col">
           <div class="row">
@@ -366,7 +364,6 @@
                   <div class="back">
 
                   <div class="facebook-header"><i class="fa fa-facebook-square float-left"></i></div>
-                  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v4.0&appId=702053583494932&autoLogAppEvents=1"></script>
                   <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="" data-height="522" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div> 
                   </div>
                 </div>
@@ -762,6 +759,7 @@
 
     </div>
 
+    <script async defer crossorigin="anonymous" src="JavaScript/fb_sdk.js"></script>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
